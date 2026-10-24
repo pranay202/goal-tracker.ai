@@ -111,3 +111,12 @@ in `app.json` is native manifest metadata.
 3. Left: GitHub has no authenticated browser or CLI session, so create private `goal-tracker.app`, add its HTTPS remote, and push `main` after signing in.
 4. Watch: retain `/artifacts`, generated native output, dependencies, and local Expo state in `.gitignore`; verify the remote commit SHA after push.
 5. Decision model: GPT-5 Codex (Codex desktop) made no product decision; it retained the established private-publication scope.
+
+
+## Session close note — 25 October 2026 (GitHub publication)
+
+1. Did: published all 32 tracked project files to `https://github.com/pranay202/goal-tracker.ai` on `main` through the authenticated GitHub session.
+2. Did: retained the intended directory layout for `assets/` and all `src/` modules; no ignored artifacts or generated folders were published.
+3. Verified: a fresh clone compared identically for every tracked file; only intentionally ignored local directories were absent remotely.
+4. Left: configure a local GitHub credential if future updates should use `git push` instead of the browser upload flow.
+5. Decision model: GPT-5 Codex (Codex desktop) made no product decision; the repository is public as created by the account owner.
